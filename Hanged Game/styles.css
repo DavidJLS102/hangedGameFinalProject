@@ -1,0 +1,118 @@
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 300%;
+}
+
+header {
+    background-color:lightskyblue;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(233, 219, 199);
+}
+
+
+.container {
+    background-color:aqua;
+}
+
+.score {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hangman {
+    position: relative;
+    width: 150px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.part {
+    display: none;
+    position: absolute;
+    background-color: #da9740;
+}
+
+.base {
+    display: block;
+    width: 150px;
+    height: 10px;
+    bottom: 0;
+}
+
+.pole {
+    display: block;
+    width: 10px;
+    height: 250px;
+    left: 70px;
+    bottom: 10px;
+}
+
+.top-bar {
+    display: block;
+    width: 80px;
+    height: 10px;
+    left: 70px;
+    top: 30px;
+}
+
+.rope {
+    display: block;
+    width: 2px;
+    height: 50px;
+    left: 130px;
+    top: 40px;
+}
+
+.head {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 60px;
+    left: 110px;
+}
+
+.body {
+    display: block;
+    width: 10px;
+    height: 80px;
+    top: 100px;
+    left: 125px;
+}
+
+.left-arm {
+    display: block;
+    width: 40px;
+    height: 10px;
+    top: 110px;
+    left: 90px;
+}
+
+.right-arm {
+    display: block;
+    width: 40px;
+    height: 10px;
+    top: 110px;
+    left: 130px;
+}
+
+.left-leg {
+    display: block;
+    width: 40px;
+    height: 10px;
+    top: 170px;
+    left: 90px;
+}
+
+.right-leg {
+    display: block;
+    width: 40px;
+    height: 10px;
+    top: 170px;
+    left: 130px;
+}
